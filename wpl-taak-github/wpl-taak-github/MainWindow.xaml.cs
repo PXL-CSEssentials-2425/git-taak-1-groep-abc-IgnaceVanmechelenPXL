@@ -63,18 +63,22 @@ namespace wpl_taak_github
         private void redImage_MouseDown(object sender, MouseEventArgs e)
         {
             colorCodeTextBox.Text = "#FF0000";
+            colorInfoTextBox.Text = "Rood is de kleur van warmte";
         }
         private void blueImage_MouseDown(object sender, MouseEventArgs e)
         {
             colorCodeTextBox.Text = "#0000FF";
+            colorInfoTextBox.Text = "Blauw is de kleur van intelligentie";
         }
         private void greenImage_MouseDown(object sender, MouseEventArgs e)
         {
             colorCodeTextBox.Text = "#008000";
+            colorInfoTextBox.Text = "Groen is de kleur van genezing";
         }
         private void yellowImage_MouseDown(object sender, MouseEventArgs e)
         {
             colorCodeTextBox.Text = "#FFFF00";
+            colorInfoTextBox.Text = "Geel is de kleur van levenslust";
         }
     }
 }
