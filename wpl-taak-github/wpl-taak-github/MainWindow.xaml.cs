@@ -60,5 +60,21 @@ namespace wpl_taak_github
         {
             mainWindow.Background = Brushes.LightGray;
         }
+        private void redImage_MouseDown(object sender, MouseEventArgs e)
+        {
+            colorCodeTextBox.Text = "#FF0000";
+        }
+        private void blueImage_MouseDown(object sender, MouseEventArgs e)
+        {
+            colorCodeTextBox.Text = "#0000FF";
+        }
+        private void greenImage_MouseDown(object sender, MouseEventArgs e)
+        {
+            colorCodeTextBox.Text = "#008000";
+        }
+        private void yellowImage_MouseDown(object sender, MouseEventArgs e)
+        {
+            colorCodeTextBox.Text = "#FFFF00";
+        }
     }
 }
