@@ -6,10 +6,15 @@
         xmlns:local="clr-namespace:wpl_taak_github"
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800"
-        Background="LightGray">
+        Background="LightGray"
+        Name="mainWindow">
     <Grid>
         <TextBlock HorizontalAlignment="Left" Margin="124,61,0,0" TextWrapping="Wrap" VerticalAlignment="Top"><Run Language="nl-be" Text="K"/><Run Text="leurenpsychologie"/><LineBreak/><Run/></TextBlock>
-        <Image HorizontalAlignment="Left" Height="100" Margin="699,0,0,0" VerticalAlignment="Top" Width="100" Source="/PXL.png"/>
+        <Image HorizontalAlignment="Left" Height="100" Margin="699,0,0,0" VerticalAlignment="Top" Width="100" Source="/PXL.png" Name="pxlImage" MouseEnter="pxlImage_MouseEnter" MouseLeave="pxlImage_MouseLeave"/>
+        <Image Height="100" Margin="144,98,456,236" Source="/Rood.png" Name="redImage" MouseEnter="redImage_MouseEnter" MouseLeave="redImage_MouseLeave"/>
+        <Image Height="100" Margin="144,217,456,117" Source="/Groen.png" x:Name="greenImage" MouseEnter="greenImage_MouseEnter" MouseLeave="greenImage_MouseLeave"/>
+        <Image Height="100" Margin="323,217,277,117" Source="/Blauw.png" x:Name="blueImage" MouseEnter="blueImage_MouseEnter" MouseLeave="blueImage_MouseLeave"/>
+        <Image Height="100" Margin="323,98,277,236" Source="/Geel.png" x:Name="yellowImage" MouseEnter="yellowImage_MouseEnter" MouseLeave="yellowImage_MouseLeave"/>
 
     </Grid>
 </Window>
