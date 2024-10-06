@@ -9,6 +9,7 @@
         Background="LightGray">
     <Grid>
         <TextBlock HorizontalAlignment="Left" Margin="124,61,0,0" TextWrapping="Wrap" VerticalAlignment="Top"><Run Language="nl-be" Text="K"/><Run Text="leurenpsychologie"/><LineBreak/><Run/></TextBlock>
+        <Image HorizontalAlignment="Left" Height="100" Margin="699,0,0,0" VerticalAlignment="Top" Width="100" Source="/PXL.png"/>
 
     </Grid>
 </Window>
